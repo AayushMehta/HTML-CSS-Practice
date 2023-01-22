@@ -1,0 +1,170 @@
+/* h1,
+h2,
+h3,
+p,
+li,
+a, 
+h4 {
+  font-family: sans;
+  color: rgb(78, 71, 71);
+} 
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffffe0;
+  font-family: sans;
+  border-top: 10px solid #1098ad;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 30px;
+  /* font-family: sans; */
+  /* text-align: center; */
+  /* border-color: yellow; */
+  /* color: rgb(100, 237, 255); */
+  text-transform: uppercase;
+  /* font-style: italic; */
+}
+
+h2 {
+  /* text-align: center; */
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  /* font-family: sans-serif; */
+  /* color: rgb(100, 237, 255); */
+}
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  /* text-align: center; */
+  /* color: rgb(100, 237, 255); */
+  /* font-family: sans-serif; */
+  /* text-transform: uppercase; */
+}
+h4 {
+  text-align: center;
+}
+p {
+  margin-bottom: 15px;
+  /* color: white; */
+}
+
+ul,
+ol {
+  margin-left: 23px;
+}
+li {
+  /* font-family: sans-serif; */
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+address {
+  /* color: white; */
+}
+
+/* footer p {
+  font-size: 10px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 16px;
+}
+#copyright {
+  font-size: 13px;
+}
+
+.related-author {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* .realted,
+.related2,
+.related3 {
+  list-style: none;
+} */
+
+/* ol {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
+.main-header {
+  font-style: italic;
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+  /* padding-left: 80px;
+  padding-right: 180px; */
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding-top: 50px;
+  width: 500px;
+}
+
+li:last-child {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0;
+}
+/* li:nth-child(2) {
+  color: red;
+} */
+
+/* a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+  font-weight: bold;
+  text-decoration: dotted;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+} 
+
+*/
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+.container {
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  width: 700px;
+}
